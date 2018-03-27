@@ -1,0 +1,112 @@
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 800 !important;
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    display: inline;
+    padding-right: 3em;
+}
+
+.links li a {
+    color: #fff;
+}
+
+.links li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(0deg, #40e0d0 0, #40a0e0 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    /* border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%; */
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+    font-weight: 500 !important;
+}
+
+header.masthead .bg-shape {
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(45deg, #40a0e0 0, #40e0d0 100%);
+}
+
+header.masthead .bg-shape-1 {
+    width: 50rem;
+    height: 50rem;
+    -webkit-transform: translate(5%, 0) rotate(45deg) !important;
+}
+
+header.masthead .bg-shape-2 {
+    width: 25rem;
+    height: 25rem;
+    -webkit-transform: translate(200%, -180%) rotate(45deg) !important;
+}
+
+header.masthead .bg-shape-3 {
+    width: 75rem;
+    height: 75rem;
+    -webkit-transform: translate(120%, -20%) rotate(45deg) !important;
+}
+
+header.masthead .masthead-muted {
+    font-weight: 500 !important;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 10rem;
+    }
+
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem;
+    }
+
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem
+    }
+}
