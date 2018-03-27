@@ -44,7 +44,8 @@ header.masthead {
     padding-top: 10rem;
     padding-bottom: 7rem;
     position: relative;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background: linear-gradient(0deg, #40e0d0 0, #40a0e0 100%);
     background-repeat: no-repeat;
     background-position: center center;
@@ -100,6 +101,7 @@ header.masthead .masthead-muted {
     header.masthead {
         padding-top: 12rem;
         padding-bottom: 10rem;
+        overflow: hidden !important;
     }
 
     header.masthead .masthead-content .masthead-heading {
