@@ -84,7 +84,7 @@ header.masthead .bg-shape-1 {
 header.masthead .bg-shape-2 {
     width: 25rem;
     height: 25rem;
-    -webkit-transform: translate(200%, -180%) rotate(45deg) !important;
+    -webkit-transform: translate(200%, -220%) rotate(45deg) !important;
 }
 
 header.masthead .bg-shape-3 {
